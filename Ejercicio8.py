@@ -1,0 +1,5 @@
+n = input('Dime un numero: ')
+m = input('Dime un numero: ')
+c = int(n)/int(m)
+r = int(n)%int(m)
+print(n,'entre',m,'da un cociente',c,'y un resto',r)
