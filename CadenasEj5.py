@@ -1,2 +1,2 @@
 frase = input('Escriba una frase, la que sea: ')
-print((frase)[::-1])
+print((frase)[::-2])
