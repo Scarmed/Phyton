@@ -1,0 +1,6 @@
+NomProduct = input('Dime le nombre del producto: ')
+PreProduct = input('Dime el precio del producto: ')
+PreTotal = round(PreProduct, 2)
+UniProduct = input('Dime las unidades que vas a comprar: ')
+Costetotal = float(PreTotal) * int(UniProduct)
+print(NomProduct, PreTotal , UniProduct ,Costetotal)
